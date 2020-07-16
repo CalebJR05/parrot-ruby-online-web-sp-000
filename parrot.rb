@@ -1,8 +1,4 @@
-def parrot(noise, phrase = "Squawk!")
-  puts phrase
-  return phrase
-  puts noise
-  return noise
+def parrot(string="Squawk!")
+  puts "#{string}"
+  "#{string}"
 end
-
-parrot 
